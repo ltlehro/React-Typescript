@@ -1,9 +1,9 @@
-import Todo from "./components/Todo";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
     <div>
-      <Todo />
+      <ContactForm />
     </div>
   );
 };
