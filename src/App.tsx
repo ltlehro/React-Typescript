@@ -1,9 +1,9 @@
-import UserInfoDynamic from "./components/UserInfoDynamic";
+import Todo from "./components/Todo";
 
 const App = () => {
   return (
     <div>
-      <UserInfoDynamic />
+      <Todo />
     </div>
   );
 };
