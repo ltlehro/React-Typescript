@@ -1,8 +1,8 @@
-import Counter from "./components/Counter";
+import CounterReducer from "./CounterReducer";
 
 const App = () => (
   <div>
-    <Counter />
+    <CounterReducer />
   </div>
 );
 

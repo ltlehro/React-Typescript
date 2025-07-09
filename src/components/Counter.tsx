@@ -1,4 +1,4 @@
-import { createContext, useContext, type FC } from "react";
+import { useContext, type FC } from "react";
 import { MyContext } from "./MyContext";
 
 const Counter: FC = () => {

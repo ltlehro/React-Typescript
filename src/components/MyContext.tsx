@@ -6,6 +6,7 @@ interface MyContextProps {
   decrement: () => void;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const MyContext = createContext<MyContextProps>({
   count: 0,
   increment: () => {},
