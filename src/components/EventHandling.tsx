@@ -3,13 +3,13 @@ const EventHandling = () => {
     console.log("Mouse Entered", event.currentTarget);
   };
 
-  const handleSubmit = (event: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     console.log("Button Clicked", event.currentTarget);
   };
   return (
     <div onMouseEnter={handleMouseEnter}>
-      <h2>Click Me</h2>
-      <button onSubmit={handleSubmit}>Click</button>
+      <h2>Hover</h2>
+      <button onClick={handleClick}>Click</button>
     </div>
   );
 };

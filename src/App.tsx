@@ -1,11 +1,9 @@
-import EventHandling from "./components/EventHandling";
+import Counter from "./components/Counter";
 
-const App = () => {
-  return (
-    <div>
-      <EventHandling />
-    </div>
-  );
-};
+const App = () => (
+  <div>
+    <Counter />
+  </div>
+);
 
 export default App;
