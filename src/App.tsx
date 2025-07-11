@@ -1,8 +1,8 @@
-import CounterReducer from "./CounterReducer";
+import HookForm from "./components/HookForm";
 
 const App = () => (
   <div>
-    <CounterReducer />
+    <HookForm />
   </div>
 );
 
